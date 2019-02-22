@@ -31,3 +31,8 @@ function accessElementInArray(findArray, index){
   var finders = findArray[index]
   return finders
 }
+
+function destructivelyRemoveElementFromBeginningOfArray(cutArray){
+  cutArray.shift()
+  return cutArray
+}
