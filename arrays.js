@@ -26,3 +26,8 @@ function destructivelyAddElementToEndOfArray(addArray, element){
   addArray.push(element)
   return addArray
 }
+
+function accessElementInArray(findArray, index){
+  var finders = findArray[index]
+  return finders
+}
